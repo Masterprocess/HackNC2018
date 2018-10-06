@@ -13,11 +13,10 @@ class Home extends Component {
 			    <div id="titleCenterDiv">
 					<div id="contentDiv">
 						{/* <h1 id="homeTitle">
-							<img id="logo" alt="" src="../assets/leaf.png"></img>
-						Gardyn
+							<img id="logo" alt="" src="../assets/"></img>
 						</h1> */}
 						<a href="/signup" className="titleButton" id="signUpButton">Sign Up</a>
-						<a href="/login" className="titleButton" id="logInButton">Log In</a>
+						<a href="/login" className="titleButton" id="logIn">Log In</a>
 						
 					</div>
 				</div>
