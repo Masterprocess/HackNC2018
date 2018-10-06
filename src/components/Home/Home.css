@@ -12,6 +12,11 @@
 	cursor: default;
 }
 
+#logo {
+	height: 100px;
+	width: 100px;
+}
+
 #titleCenterDiv {
 	position: absolute;
 	top: 0;
@@ -28,7 +33,6 @@
 #signUpButton {
 	float: left;
 	margin: 0 auto;
-	animation: fadeinButton1 2.5s;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -38,7 +42,6 @@
 #logInButton {
 	float: right;
 	margin: 0 auto;
-	animation: fadeinButton2 3s;
 	display: flex;
 	align-items: center;
 	justify-content: center;
