@@ -5,7 +5,7 @@ import "./Register.css";
 
 const Register = (props) => {   
   
-  props = props.location.state.props.item;
+ //  props = props.location.state.props.item;
 
   return (
     <Wrapper>

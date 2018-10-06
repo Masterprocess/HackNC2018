@@ -1,19 +1,29 @@
-import React from "react";
-import Navbar from "../Navbar";
-import Wrapper from "../Wrapper";
+import React, { Component } from "react";
 import "./Home.css";
 
-const Home = (props) => {   
-  
-  props = props.location.state.props.item;
+class Home extends Component {
 
+	componentWillMount() {
+		document.title = "Home | Doggers";
+	}
 
-  return (
-    <Wrapper>
-      <Navbar/>
-      <div>Fill out the Registration!</div>
-    </Wrapper>
-  )
-};
+	render() {
+		return (
+			<div>
+			    <div id="titleCenterDiv">
+					<div id="contentDiv">
+						{/* <h1 id="homeTitle">
+							<img id="logo" alt="" src="../assets/leaf.png"></img>
+						Gardyn
+						</h1> */}
+						<a href="/signup" className="titleButton" id="signUpButton">Sign Up</a>
+						<a href="/login" className="titleButton" id="logInButton">Log In</a>
+						
+					</div>
+				</div>
+			</div>
+		)
+	}
+}
 
 export default Home;

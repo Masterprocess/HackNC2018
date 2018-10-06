@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Wrapper from "../Wrapper";
-import "./Register.css";
+import "./Login.css";
 
-const Register = (props) => {   
+const Login = (props) => {   
   
-  props = props.location.state.props.item;
+ //  props = props.location.state.props.item;
 
 
   return (
@@ -16,4 +16,4 @@ const Register = (props) => {
   )
 };
 
-export default Register;
+export default Login;

@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Wrapper from "../Wrapper";
-import "./Dashboard.css";
+import "./Logout.css";
 
-const Dashboard = (props) => {   
+const Logout = (props) => {   
   
  //  props = props.location.state.props.item;
 
@@ -16,4 +16,4 @@ const Dashboard = (props) => {
   )
 };
 
-export default Dashboard;
+export default Logout;
