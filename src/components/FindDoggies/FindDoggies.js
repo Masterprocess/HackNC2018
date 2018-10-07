@@ -47,8 +47,8 @@ class FindDoggies extends Component {
 
 	render() {
 		return ( 
-			<div>
-				<h1>{this.state.age}</h1>
+			<div class="cardInfo">
+				{/* <h1>{this.state.age}</h1>
 				<h1>{this.state.animal}</h1>
 				<h1>{this.state.mix}</h1>
 				<h1>{this.state.name}</h1>
@@ -56,8 +56,14 @@ class FindDoggies extends Component {
 				<h1>{this.state.size}</h1>
 				<h1>{this.state.city}</h1>
 				<h1>{this.state.email}</h1>
+ */}
+                <div><h4>{this.state.name}</h4></div>
 
-				
+				<div><p class="type">City: {this.state.city}</p></div>
+				<div><p>Age: {this.state.age}</p></div>
+				<div><p>Sex: {this.state.sex}</p></div>
+
+
 			</div>
 		)
 	}

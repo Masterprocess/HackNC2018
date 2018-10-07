@@ -1,0 +1,144 @@
+#circleButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navbar {
+    float: right;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    height: 65px;
+    background: linear-gradient(0.10turn, rgb(212, 44, 44), #ec5f34);
+    color: white;
+}
+
+.navbar div {
+    margin: auto 0px;
+    width: 100px;
+    height: 100%;
+    float: right;
+
+}
+
+.navbar div h6{
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin: 20px 0 20px 20px;
+    text-align: center;
+}
+.menu:hover{
+    border-bottom: 2px solid white;
+}
+
+h1{
+    margin: 20px 0 0 0;
+}
+
+#subTitle{
+    border-bottom: 1px solid rgb(180,180,180);
+}
+
+.main {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+form input{
+    margin: 0 10px;
+}
+
+button {
+    background: rgb(240, 49, 49);
+    border: 0;
+    margin: 10px;
+    color: white;
+    width: 120px;
+    padding: 4px;
+    border-radius: 3px;
+    font-style: bold; 
+}
+
+.sidePanel {
+    background-color: rgb(180,180,180);
+    margin-top: -10px;
+    padding-top: 10px;
+}
+
+.topMargin {
+    margin-top: 10px;
+}
+
+#cardHolder {
+    padding: 10px;
+}
+
+#card {
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 3px;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+}
+
+#card button{
+    color: rgb(240, 49, 49);
+    background-color: white;
+    border: 2px solid rgb(240, 49, 49);
+}
+#card p{
+    margin: 0 5px;
+    font-size: .8rem;
+    color: rgb(150,150,150);
+    text-align: left;
+}
+
+#card p.type {
+    font-weight: bold;
+    color: rgb(20,20,25);
+}
+
+#card h4{
+    text-align: left;
+    margin: 5px 0 0 5px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.backImage {
+    height: 300px;
+    border-bottom: 1px solid rgb(100,100,100);
+    margin: 0!important;
+    overflow: hidden;
+}
+.backImage img {
+    height:300px;
+}
+
+.cardInfo {
+    padding: 10px;
+}
+
+#yes{
+    background-color: rgb(36, 216, 132);
+    background: linear-gradient(0.10turn, rgb(15, 185, 114), #7ee7ad);
+    float: right;
+}
+
+#no{
+    background: linear-gradient(0.10turn, rgb(212, 44, 44), #ec7734);
+    float: left;
+}
+
+.swipeButtons button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+.swipeButtons button:hover { 
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}

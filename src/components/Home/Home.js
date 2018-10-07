@@ -18,7 +18,8 @@ class Home extends Component {
 						</h1>
 						<a href="/register"  className="titleButton" id="signUpButton">Sign Up</a>
 						<a href="/login" className="titleButton" id="logIn">Log In</a>
-						
+						<a href="/dashboard" className="titleButton" id="logIn">Log In</a>
+
 					</div>
 				</div>
 			</div>
