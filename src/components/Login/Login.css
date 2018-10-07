@@ -1,0 +1,16 @@
+#login_form
+{
+	margin: 20% 20%;
+}
+
+.form_item 
+{
+	margin: 0%;
+	width: 100%;
+}
+
+#form_submit
+{
+	width: 50%;
+	margin: 5% 25% 0% 25%;
+}

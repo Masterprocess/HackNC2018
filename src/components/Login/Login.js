@@ -1,19 +1,23 @@
-import React from "react";
+import React, { Component } from "react";
 import Navbar from "../Navbar";
 import Wrapper from "../Wrapper";
 import "./Login.css";
 
-const Login = (props) => {   
+class Login extends Component {   
   
  //  props = props.location.state.props.item;
 
 
-  return (
-    <Wrapper>
-      <Navbar/>
-      <div>Fill out the Registration!</div>
-    </Wrapper>
-  )
+  render()
+  {
+  	return(
+  		<form method = "post" id = "login_form">
+  			<input type = "text" name = "email" id = "form_email" class = "form_item" placeholder = "email"/>
+  			<input type = "password" name = "password" id = "form_password" class = "form_item" placeholder = "password"/>
+  			<input type = "submit" value = "form_sub" id = "form_submit" />
+  		</form>
+  	)
+  }
 };
 
 export default Login;
