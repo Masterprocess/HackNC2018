@@ -1,29 +1,26 @@
 import React, { Component } from "react";
+import Navbar from "../Navbar";
+import Wrapper from "../Wrapper";
 import "./Login.css";
 
-class Login extends Component {
+class Login extends Component {   
+  
+ //  props = props.location.state.props.item;
 
 	componentWillMount() {
 		document.title = "Home | Fetch";
 	}
 
-	render() {
-		return (
-			<div>
-			    <div id="titleCenterDiv">
-					<div id="contentDiv">
-					  <h1 id="homeTitle">
-							<img id="logo" alt="dog face!" src="../assets/doggo.png"></img>
-							yeet
-						</h1>
-						<a href="/signup" className="titleButton" id="signUpButton">Sign Up</a>
-						<a href="/login" className="titleButton" id="logIn">Log In</a>
-						
-					</div>
-				</div>
-			</div>
-		)
-	}
-}
+  render()
+  {
+  	return(
+  		<form method = "post" id = "login_form">
+  			<input type = "text" name = "email" id = "form_email" class = "form_item" placeholder = "email"/>
+  			<input type = "password" name = "password" id = "form_password" class = "form_item" placeholder = "password"/>
+  			<input type = "submit" value = "form_sub" id = "form_submit" />
+  		</form>
+  	)
+  }
+};
 
 export default Login;
