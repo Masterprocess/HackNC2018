@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import LoginButton from "../LoginButton";
 import "./Home.css";
 
 class Home extends Component {
@@ -17,7 +18,7 @@ class Home extends Component {
 							Fetch
 						</h1>
 						<a href="/signup" className="titleButton" id="signUpButton">Sign Up</a>
-						<a href="/login" className="titleButton" id="logIn">Log In</a>
+						<LoginButton/>
 						
 					</div>
 				</div>

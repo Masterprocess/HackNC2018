@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Register from "./components/Register";
 import Logout from "./components/Logout";
 import './App.css';
+import FindDoggies from './components/FindDoggies';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
 	      	<Route path='/login' component={Login}/>
 					<Route path='/dashboard' component={Dashboard}/>
 					<Route path='/logout' component={Logout}/>
+					<Route path='/finddoggies' component={FindDoggies}/>
 	    </Switch>
     );
   }
