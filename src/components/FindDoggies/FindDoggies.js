@@ -34,13 +34,13 @@ class FindDoggies extends Component {
 					animal: data.petfinder.pet.animal.$t,
 					city: data.petfinder.pet.contact.city.$t,
 					email: data.petfinder.pet.contact.email.$t,
-					// media: data.petfinder.pets.pet.photos.photo[7],
+					media: data.petfinder.pets.pet.media.photos.photo[2],
 					mix: data.petfinder.pet.mix.$t,
 					name: data.petfinder.pet.name.$t,
 					sex: data.petfinder.pet.sex.$t,
 					size: data.petfinder.pet.size.$t
 				});
-
+				console.log(this.state)
 			})
 
 	}

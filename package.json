@@ -5,6 +5,8 @@
   "dependencies": {
     "@material/card": "^0.40.0",
     "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.4",
     "react": "^16.5.2",
     "react-cli": "^0.3.1",
     "react-dom": "^16.5.2",
