@@ -1,3 +1,15 @@
+This project was created to solve the issue of large numbers of animals being euthanized in kill shelters. The app is designed to connect users to animals in need of adoption.
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
